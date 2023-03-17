@@ -1,17 +1,117 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE-edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Main Page</title>
+    <link rel="stylesheet" href="style.css">
+	<link rel="icon" href="https://favicon-generator.org/favicon-generator/htdocs/favicons/2014-12-28/75945c3f868aa9a88f1b51138ce89da5.ico">
+    <title>Milestone 2</title>
 </head>
 <body>
     <div class = "container">
         <h1>
-            Contents
+            Milestone 2
         </h1>
-        <a href="./index.html"><h2>Click Here</h2></a>
+        <a href="./index.html"><h2>Home Page</h2></a>
+        <hr>
+        <h2>A. Task / Problem Definition</h2>
+        <p style="text-align: center;">The problem at hand is surrounding proctoring software. Proctoring software affords monitoring of student behavior, affords delivering 
+            exams, and affords audio and camera enable recording. Respondus Lockdown browser, for example, uses boxes, step labels, and buttons to 
+            indicate progression through their pre-exam environment and ID check. These types of software have had systematic issues with inaccuracy, 
+            race bias, inability for students to customize the software, and equity concerns. This topic is theme-relevant to educational technology in
+             computing education as the use of this software is prevalent in higher learning. As students ourselves, many of our classes require proctoring 
+             software to take exams. Adding greater accessibility for all students in proctoring software design will result in a smoother, less stressful exam experience. 
+        </p>
+
+        <h3>Seven Stages of Action</h3>
+        <p><u>Trigger:</u> The user attends class and is reminded by their professor of their upcoming exam that will be completed online through an online proctoring software. 
+            <br></br>
+            <u>Goal:</u> The student user wants to successfully pass their proctored exam with their laptop at home. 
+            <br></br>
+            <u>Execution:</u>
+            <ol>
+                <li><i>Plan</i> - The user is given one required proctoring software option. The user considers the implication of this software in their preparation for the exam. The software will 
+                    require a quiet environment, with no visual distractions in the background.</li>
+                <li><i>Specify</i> - The student prepares their environment by going into their bedroom, removing any papers on their desk, and putting away all other electronic devices. They gather
+                     their student ID/other personal information from their wallet. </li>
+                <li><i>Perform</i>  - It is very loud outside their window, but with the limited exam-window, the student begins their exam anyway.</li>
+            </ol>
+            <u>World:</u> The user takes their exam and finishes this task.
+            <br></br>
+            <u>Evaluation:</u>
+            <ol>
+                <li><i>Perceive</i> - The user feels the satisfaction of completing their exam. They feel slightly nervous by what might result from the disruptions that occurred during their exam.</li>
+                <li><i>Interpret</i> - The user knows that they cannot do more than wait for the professor to reach out to them if they did indeed get flagged.</li>
+                <li><i>Compare</i> - The user met their goal of completing their exam, however they wish that it had gone more smoothly. They acknowledge that things could have gone worse.</li>
+            </ol>
+        </p>
+        <p style="text-align: center;"> The situation described above is typical as members of our group have all faced external disruptions during many of our proctored exams. One small distraction can build up nerves and stress for students.
+            While these disruptions cannot be avoided, changing software design to ensure the best possible online environment can help each student complete their exams confidently without having the proctoring software 
+            lowering their maximum potential grade. </p>
+
+    <h3>Potential Users</h3>
+    <p style="text-align: center;">The population that is affected by the study are students who are in college or grade school that are not able to take physical exams due to sickness, DRC accommodations, etc. The students all take an exam based on the class they are taking. 
+        They launch some sort of proctoring software (i.e. Lockdown Browser) which prevents the student from accessing other websites, keeps the exam in the forefront for the duration of the exam, and enables a webcam to monitor any form of cheating
+         (i.e. looking up answers on your phone, discussing with peers, etc). Sometimes this software can flag cheating when there was no cheating present, so finding a potential software that monitors cheating that only accurately identifies cheating would 
+         save a lot of heated debate between the professor and student regarding the flag. Additionally, most proctoring software only offers customizable options for the teachers but not the students which can create a lackluster testing environment for the 
+         student which can inadvertently affect their exam grade. 
+    </p>
+    <hr>
+
+    <h2>B. Analysis of Existing Solutions</h2>
+    <h3>Existing Solutions</h3>
+        <p style="text-align: center;">One existing solution to the proctoring software is that a professor can disable the flagging webcam setting during the exam, so there would not be any flagging for cheating by the AI which can prevent inaccurate flagging in the first place. Although this is great for 
+            potential inaccurate flagging, the con is that there would not be flagging for cheating that is actually occurring. Most teachers do not have the time to go through each of the webcam video files, so having this AI flagging enabled is the only monitoring tool that exists. 
+            Another solution that exists is that some teachers do not have to use proctoring software. Instead, a student can use Zoom or Skype on his/her phone, set up the phone to foresee the student’s desk, and have teachers/TAs monitor the student while he/she is taking the exam. 
+            A con for this, however, is the invasion of privacy for the student. The student, technically, should not have to show their home and work area openly to the supervisors of the exam and this can be quite problematic if the student’s webcam shows any aspect of where they live, 
+            how they live, etc. As of right now, there is no proctoring software that enables student customization. For example, if a student likes to have a dark mode while taking the exam or does not want to have their webcam feedback on at all, these options are not available to be automatically
+             enabled/disabled in settings for the students.</p>
+
+
+    <h3>Potential Guidelines and Solutions</h3>
+        <p style="text-align: center;">Proctoring software does not have a major UI that needs to have specific guidelines or principles to be adhered to so that the user can have an easy time navigating it. Most proctoring software has a small initial UI to input personal information and ensure that the
+             microphone and webcam work properly. Therefore, this UI must be able to adhere to 1 of the 8 Golden Rules: permit easy reversal of action. In the case the user inputs incorrect personal information or their microphone/webcam does not actually seem to work, this UI must allow the user to go back to 
+             previous tabs/pages to allow the user to change that information, or check their microphone/webcam again. </p>
+
+        <p style="text-align: center;">While taking the exam, there is not a defined UI that the user can see in the lockdown browser since the exam will be taking up their entire screen. As a result, the software should be able to still function without blocking out any portion of the exam. Additionally, 
+            the software should prevent the user from making major errors (1 of 8 Golden Rules). For example, the software should prevent the user from closing out the exam on accident by removing those specific buttons from the user’s screen. </p>
+
+        <p style="text-align: center;">One of the main principles that proctoring software have to unofficially conform to is privacy. Since there is a webcam that can see into the user’s home/personal space, proctoring software must collect little to no information and inform the user what information is being collected 
+            from the webcam or microphone. Privacy of the user must be ensured, and if it is not, it can seriously violate the 4th amendment. </p>
+
+        <p style="text-align: center;">For our software, we want to be able to provide all the guidelines and principles above and 2 additional guidelines: universal usability and keeping users in control. Proctoring software can have race bias by flagging darker colored individuals because the software won't recognize a face 
+            using its algorithm and flags the individual for not being present in the webcam’s field of view. This violates the universal usability aspect of the 8 Golden Rules, and we would like to implement this within our software so that proctoring racial/gender bias does not exist in a testing environment. Additionally, most 
+            proctoring software does not offer any customizability in the testing window. For example, having a dark mode, customizing your webcam feedback, customizing the text on the test questions, etc. would be extremely helpful and help students with feeling more comfortable and allow them to complete their exam with more confidence.
+             We would like to add this aspect of customization to our software and keep the users in control of their interface.</p>
+    
+    <hr>
+    <h2>C. Proposed Solution</h2>
+        <p style="text-align: center;">Many proctoring softwares, such as Respondus Lockdown browser, do not have the appropriate icons available to make the online test taking process accessible. Respondus for example, only has icons that allow you to move through the test and a help button that does not give the test take further instruction or 
+            icons to help make the test more accessible. Due to the lack of customization for test taking, students experience difficulty and anxiety when taking the exam. If proctoring software was more customizable and accessible, students would have an easier time taking the exam. Our design solution to address the issues surrounding proctoring 
+            software is to incorporate clear and intuitive signifiers to allow for customizability of the proctoring user interface. This will ensure that each student will have a chance to create a test taking environment that suits their needs.
+        </p>
+        <p style="text-align: center;">
+            Properties of the design solution would involve allowing the student to change the colors, font-sizes, and shapes of the questions on the screen. These small changes can help the student focus on their test without and while reducing some of the anxiety that can occur from trigger colors or not being able to see the questions clearly. Based 
+            on these particular properties, having a signifier like a button that affords clicking and accessing of areas to change the testing environment settings makes students with visual or other impairments feel more comfortable taking an online exam. </p>
+        <p style="text-align: center;">Another signifier could be adding icons for webcam adjustment and text to speech icons. There are reports that certain proctoring software cannot identify darker skin tones which leads the software to flag them for cheating. An icon such as the webcam icon affords clicking and adjusting settings like webcam contrast in 
+            order to alter the brightness of the student’s webcam so that darker skin tones are more included. </p>
+        <p style="text-align: center;">Currently, proctoring software has an accessible mode where if someone has a disability they can opt to take it in this setting however, it would be better if we allow some of the settings offered in that mode available to every student such as text to speech. This icon would afford all students by clicking to be able to 
+            use this setting as they wish which could potentially lead to lower anxiety as all students learn in different ways. Having clear icons to signify microphone, camera, and other related settings during the actual proctoring service that afford toggling and pressing would make sure the student can be comfortable during the exam. </p>
+        <p style="text-align: center;">Compared to existing solutions, this design solution would prioritize customization and ease of use, addressing key concerns around equity and student experience. By making it easier for students to understand and make changes to the proctoring software, this solution would also address issues around inaccuracy and bias, as
+             students would have more control over the settings and features that impact their exam experience. Additionally, this solution would allow for greater transparency and communication between students and educators, as students could provide feedback on the software and make requests for additional customization options as needed. </p>
+
+     <h3>Measuring Success</h3>
+        <ol>
+            <li style="list-style: circle;"><u>User feedback:</u> Gathering feedback from students who use the software will be crucial in determining whether the design is successful or not. Feedback can be collected through surveys, focus groups, or other forms of user research, and should focus on whether students found the customizability features easy to use and whether they felt that they were able to control their testing environment effectively</li>
+            <li style="list-style: circle;"><u>Customization usage:</u> Analyzing the usage data for the customization features can also provide insights into the success of the design. Specifically, we can track how frequently students are using the customization features, which features are most popular, and whether there are any areas where students may need additional support.</li>
+            <li style="list-style: circle;"><u>Error rates and bias:</u> Analyzing error rates and potential biases in the software can also provide insights into the success of the design. Specifically, we can track whether error rates or biases have decreased since implementing the customizability features, and whether there are any additional customizability options that could further reduce error rates.</li>
+        </ol>
+
+    <hr>
+    <h2>D. Summary Video</h2>
+
     </div>
 </body>
 </html>

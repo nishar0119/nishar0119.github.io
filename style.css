@@ -1,0 +1,49 @@
+h1{
+    font-style: normal;
+    color: darkgreen;
+    font-family: 'Bitter',serif;
+    text-align: center;
+}
+
+h2{
+    font-style: normal;
+    color:darkgoldenrod;
+    font-family: 'Bitter',serif;
+    text-align: center;
+}
+
+h3{
+    color:darkslategrey;
+    text-align: center;
+ }
+
+li{
+    padding-right: 45px;
+    list-style: none;
+}
+
+body{
+margin: 50px;
+background-color:lightyellow;
+font-size: 1.4vw;
+}
+
+p{
+    color:darkslategrey;
+    font-family: 'Bitter',serif;
+
+}
+
+.column {
+    float:left;
+    width: 50%;
+   
+}
+
+.row::after {
+    content: "";
+    display: table;
+    clear:both;
+    
+}
+
